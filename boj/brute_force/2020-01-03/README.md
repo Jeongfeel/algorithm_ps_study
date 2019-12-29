@@ -1,5 +1,7 @@
 # 2020. 01. 03 Brute force 문제 List
 
+<br>
+
 ## 문제 1. [#1065 한수](https://www.acmicpc.net/problem/1065)
 
 ### 문제
