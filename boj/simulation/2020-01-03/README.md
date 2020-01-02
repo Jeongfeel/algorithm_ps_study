@@ -40,7 +40,7 @@
 
 ### 문제 풀이
 
-- lxxjn0
+- [lxxjn0](./prob_2455/lxxjn0_prob_2455.cpp)
 
 <br>
 
@@ -76,4 +76,4 @@
 
 ### 문제 풀이
 
-- lxxjn0
+- [lxxjn0](./prob_1094/lxxjn0_prob_1094.cpp)
