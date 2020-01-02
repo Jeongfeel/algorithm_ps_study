@@ -20,6 +20,7 @@ int CalculateMaxTrainUser() {
     for (int i = 0; i < STATION_NUMBER; i++) {
         int get_off_number = 0;
         int get_on_number = 0;
+        
         cin >> get_off_number >> get_on_number;
         total_user += (get_on_number - get_off_number);
         train_user_log.push_back(total_user);
