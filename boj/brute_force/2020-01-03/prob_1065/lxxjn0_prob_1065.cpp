@@ -18,7 +18,7 @@ bool IsHanNumber(int num) {
 
     if (num_string_len == 1 || num_string_len == 2) {
         return true;
-    } else if ((num_string_len == 3) && ((num_string[2] - num_string[1]) == (num_string[1] - num_string[0]))) {
+    } else if ((num_string[2] - num_string[1]) == (num_string[1] - num_string[0])) {
         return true;
     }
     return false;

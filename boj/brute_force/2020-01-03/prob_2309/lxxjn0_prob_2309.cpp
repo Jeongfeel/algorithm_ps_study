@@ -42,6 +42,7 @@ vector<int> FindRealDwarf(vector<int> dwarf_height, vector<int> comb_vec) {
     do {
         int sum_height = 0;
         vector<int> answer;
+        
         for (int i = 0; i < FAKE_DWARF_NUMBER; i++) {
             if (comb_vec[i] == 0) {
                 sum_height += dwarf_height[i];
@@ -52,6 +53,7 @@ vector<int> FindRealDwarf(vector<int> dwarf_height, vector<int> comb_vec) {
             return answer;
         }
     } while (next_permutation(comb_vec.begin(), comb_vec.end()));
+
     vector<int> empty;
     return empty;
 }
